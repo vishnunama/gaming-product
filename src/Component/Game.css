@@ -1,5 +1,6 @@
 body{
-    background-color: #41485C;
+    background: rgb(46, 15, 134);
+        background: linear-gradient(90deg, rgba(46, 15, 134, 1) 0%, rgba(209, 1, 62, 1) 100%);
 }
 .center-container {
     margin-top: 45px;
@@ -36,7 +37,7 @@ body{
     font-size: 40px;
 }
 .game-world{
-    font-family:serif;
+    font-family:'Courier New', Courier, monospace;
     color: #44B6CA;
     font-size: 2rem;
     display: flex;
@@ -46,7 +47,8 @@ body{
 }
 .game-detalis{
     /* padding-left: 60px; */
-    font-size: 23px;
+    margin-left: 10px;
+    font-size: 25px;
     line-height: 50px;
     color: #9163FF;
     font-family:'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
